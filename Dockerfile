@@ -17,6 +17,7 @@ RUN apk --update add \
         icu-dev \
     && docker-php-ext-install \
         pdo_mysql \
+        mysqli \
         iconv \
         dom \
         simplexml \
